@@ -1,6 +1,7 @@
 package com.wfh.entity;
 
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
@@ -32,6 +33,7 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 
 @Document(indexName = "item",type = "docs",shards = 1,replicas = 0)
 @Data
+@AllArgsConstructor
 public class Item {
 
     @Id

@@ -64,7 +64,7 @@ public class TestController {
      *     （11）嵌套的聚合
      *     NestedBuilder nb= AggregationBuilders.nested("negsted_path").path("quests");
      *     （12）反转嵌套
-     *     AggregationBuilders.reverseNested("res_negsted").path("kps ");
+     *     AggregationBuilders.reverseNested("res_negsted").path苹果XSMax("kps ");
      *
      *   AggregatedPage：聚合查询的结果类。它是Page<T>的子接口：
      *
